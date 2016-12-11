@@ -1,1 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-11T23:30:23+08:00</updated><id>http://localhost:4000//</id><title type="html">Kranken and I</title><subtitle>A small project to keep me occupied</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-12T00:13:38+08:00</updated><id>http://localhost:4000//</id><title type="html">Kranken and I</title><subtitle>A small project to keep me occupied</subtitle><entry><title type="html">Why do I do this</title><link href="http://localhost:4000/forward/2016/12/11/why-do-i-do-this.html" rel="alternate" type="text/html" title="Why do I do this" /><published>2016-12-11T23:41:03+08:00</published><updated>2016-12-11T23:41:03+08:00</updated><id>http://localhost:4000/forward/2016/12/11/why-do-i-do-this</id><content type="html" xml:base="http://localhost:4000/forward/2016/12/11/why-do-i-do-this.html">&lt;blockquote&gt;
+  &lt;p&gt;There is at least one monster in everyone’s mind.
+I have several. One of them is called &lt;strong&gt;Vacancy&lt;/strong&gt;.
+The most malicious one, consumes me.
+Therefore, I summoned the beast from the ancient time.
+From the very deep of the sea.
+Its name is Kraken, help me with defeating the monster in me.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Okay, it’s just a small project for me to keep me busy and from thinking too much. The goal is very simple, everyday I create a post to show the process of solving the problem in building the CMS with &lt;a href=&quot;http://krakenjs.com/&quot;&gt;kraken.js&lt;/a&gt;. I am not trying to show people how cool or awesome I am in this field. I am not, in the matter of fact, I am pretty lame in this field. Yes, it’s a therapy for me.&lt;/p&gt;
+
+&lt;p&gt;I hope this processing of writing down what’s in my mind can put the depression and anxiety in peace. As my wife told me: one step a time. So here is how I am gonna archive the goal:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;List the result I want to archive&lt;/li&gt;
+  &lt;li&gt;How I do it&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;One result at a time. I hope by the end of this project, I can finally be free from the voidness bothers me. You might ask why. The answer is that, I have been in this field for 10 years. But I am not a genius, or the brightest, or the smartest, or the skilled developer around. I lost the motivation ever since I had retired from the army. I need a kick from myself to prove to myself that I &lt;em&gt;can&lt;/em&gt; do something. Not the greatest or the coolest stuff, but journey to find a myself back.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-goal-of-this-project-to-build-a-cms-with-krakenjs-and-react&quot;&gt;The goal of this project: to build a CMS with kraken.js and React&lt;/h3&gt;
+
+&lt;p&gt;#THAT’S IT!!!&lt;/p&gt;
+
+&lt;h6 id=&quot;btw-english-is-not-my-native-tongue&quot;&gt;BTW, English is not my native tongue&lt;/h6&gt;</content><summary type="html">There is at least one monster in everyone’s mind.
+I have several. One of them is called Vacancy.
+The most malicious one, consumes me.
+Therefore, I summoned the beast from the ancient time.
+From the very deep of the sea.
+Its name is Kraken, help me with defeating the monster in me.</summary></entry></feed>
