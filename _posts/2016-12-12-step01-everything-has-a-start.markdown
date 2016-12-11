@@ -79,7 +79,7 @@ Hell no, I am gonna use [react-intl](https://github.com/yahoo/react-intl) (or no
 
 For the following questions:
 
-+ `Bower` for Fron end package manage
++ `Bower` for Front end package manage
 + `None` for CSS preprocessor library
 + `None` for JavaScript library
 
