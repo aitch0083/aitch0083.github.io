@@ -1,4 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-12T00:13:38+08:00</updated><id>http://localhost:4000//</id><title type="html">Kranken and I</title><subtitle>A small project to keep me occupied</subtitle><entry><title type="html">Why do I do this</title><link href="http://localhost:4000/forward/2016/12/11/why-do-i-do-this.html" rel="alternate" type="text/html" title="Why do I do this" /><published>2016-12-11T23:41:03+08:00</published><updated>2016-12-11T23:41:03+08:00</updated><id>http://localhost:4000/forward/2016/12/11/why-do-i-do-this</id><content type="html" xml:base="http://localhost:4000/forward/2016/12/11/why-do-i-do-this.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-12T00:56:47+08:00</updated><id>http://localhost:4000//</id><title type="html">Kranken and I</title><subtitle>A small project to keep me occupied</subtitle><entry><title type="html">Step01 Everything has a start</title><link href="http://localhost:4000/basics/2016/12/12/step01-everything-has-a-start.html" rel="alternate" type="text/html" title="Step01 Everything has a start" /><published>2016-12-12T00:50:00+08:00</published><updated>2016-12-12T00:50:00+08:00</updated><id>http://localhost:4000/basics/2016/12/12/step01-everything-has-a-start</id><content type="html" xml:base="http://localhost:4000/basics/2016/12/12/step01-everything-has-a-start.html">&lt;p&gt;###Goal: To start a kraken.js server with modified text
+###How I do this&lt;/p&gt;
+
+&lt;p&gt;First, I need to install the kraken.js in the working enviroment. The process is simple, just open a terminal (I love terminal, btw) and type:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install -g yo generator-kraken bower grunt-cli
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;This line install 4 things yo, kraken, bower and grunt-cli. Holy shi*t, why is so complicated to install a runnable template? I just want to have that &lt;code class=&quot;highlighter-rouge&quot;&gt;Hello world&lt;/code&gt; impact when I first learned &lt;strong&gt;Turbo C&lt;/strong&gt;. So it means I have to have the basic knowledge of these 4 things:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/yo#whats-yeoman&quot;&gt;Yo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://krakenjs.com/#templates&quot;&gt;Kraken&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bower.io/&quot;&gt;Bower&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://gruntjs.com/&quot;&gt;Grunt&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Not to mention these 4 are not the most cutting-edge stuff on the table, like, WebPack, Gulp, and you know…&lt;/p&gt;
+
+&lt;p&gt;Alright, even they aren’t the latest, but I like Kraken. I tried &lt;a href=&quot;http://sailsjs.com/&quot;&gt;Sails.js&lt;/a&gt; before. It’s great, but its Waterline (I always recall it as Waterpipe) is like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.relatably.com/m/img/sassy-black-woman-memes/51202167.jpg&quot; alt=&quot;oh-no-hell-no&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And I found Kraken, with introduction like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s an &lt;a href=&quot;&quot;&gt;Express&lt;/a&gt; middleware!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Oh man, that’s exact what I want. Since it’s a middleware, I can plug in/off any middleware I think it’s suitable. Kraken comes with other 4 companies:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lusca (Application Security)&lt;/li&gt;
+  &lt;li&gt;Kappa (NPM Proxy)&lt;/li&gt;
+  &lt;li&gt;Makara (Dust i18N)&lt;/li&gt;
+  &lt;li&gt;Adaro (Dust Templating)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I am gonna use React as my template engine, so I just pass Adaro and Makara.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enough of the trash talk!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;After installing the node modules, run:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;yo kraken
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You shall SEE:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     ,'&quot;&quot;`.
+hh  / _  _ \
+    |(@)(@)|   Release the Kraken!
+    )  __  (
+   /,'))((`.\
+  (( ((  )) ))
+   `\ `)(' /'
+
+Tell me a bit about your application:
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Then you have to answer the questions of Norns! Nothing special really, just being cautious when it comes to:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;? Template library? (Use arrow keys)
+  Dust (via Makara 2)
+  Dust
+❯ None
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Choose &lt;code class=&quot;highlighter-rouge&quot;&gt;None&lt;/code&gt; here, since I am determined to use React. And:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;? Include i18n support? (Use arrow keys)
+  Yes
+❯ No
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Hell no, I am gonna use &lt;a href=&quot;https://github.com/yahoo/react-intl&quot;&gt;react-intl&lt;/a&gt; (or not~).&lt;/p&gt;
+
+&lt;p&gt;For the following questions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bower&lt;/code&gt; for Fron end package manage&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;None&lt;/code&gt; for CSS preprocessor library&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;None&lt;/code&gt; for JavaScript library&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After answering these questions. Kraken has to fight with Norns, it might take few minutes, it’s a good time to take a leak. Run the server with:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ I-AM-CONSOLE &amp;gt; nodemon server
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Thou shall see:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;name:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'index'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//it's&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;plain&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;object,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;since&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;there&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;no&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;rendering&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;engine&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;yet&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Play with the model class in &lt;code class=&quot;highlighter-rouge&quot;&gt;models/index.js&lt;/code&gt; to see the different output. That’s it.&lt;/p&gt;
+
+&lt;p&gt;Let’s keep the rendering part to the next post.&lt;/p&gt;</content><summary type="html">###Goal: To start a kraken.js server with modified text
+###How I do this</summary></entry><entry><title type="html">Why do I do this</title><link href="http://localhost:4000/forward/2016/12/11/why-do-i-do-this.html" rel="alternate" type="text/html" title="Why do I do this" /><published>2016-12-11T23:41:03+08:00</published><updated>2016-12-11T23:41:03+08:00</updated><id>http://localhost:4000/forward/2016/12/11/why-do-i-do-this</id><content type="html" xml:base="http://localhost:4000/forward/2016/12/11/why-do-i-do-this.html">&lt;blockquote&gt;
   &lt;p&gt;There is at least one monster in everyone’s mind.
 I have several. One of them is called &lt;strong&gt;Vacancy&lt;/strong&gt;.
 The most malicious one, consumes me.

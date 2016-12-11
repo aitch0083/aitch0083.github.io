@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Step01 Everything has a start</title>
+  <meta name="description" content="###Goal: To start a kraken.js server with modified text ###How I do this">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/basics/2016/12/12/step01-everything-has-a-start.html">
+  <link rel="alternate" type="application/rss+xml" title="Kranken and I" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Kranken and I</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Step01 Everything has a start</h1>
+    <p class="post-meta"><time datetime="2016-12-12T00:50:00+08:00" itemprop="datePublished">Dec 12, 2016</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>###Goal: To start a kraken.js server with modified text
+###How I do this</p>
+
+<p>First, I need to install the kraken.js in the working enviroment. The process is simple, just open a terminal (I love terminal, btw) and type:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>npm install -g yo generator-kraken bower grunt-cli
+</code></pre>
+</div>
+<p>This line install 4 things yo, kraken, bower and grunt-cli. Holy shi*t, why is so complicated to install a runnable template? I just want to have that <code class="highlighter-rouge">Hello world</code> impact when I first learned <strong>Turbo C</strong>. So it means I have to have the basic knowledge of these 4 things:</p>
+
+<ol>
+  <li><a href="https://www.npmjs.com/package/yo#whats-yeoman">Yo</a></li>
+  <li><a href="http://krakenjs.com/#templates">Kraken</a></li>
+  <li><a href="https://bower.io/">Bower</a></li>
+  <li><a href="http://gruntjs.com/">Grunt</a></li>
+</ol>
+
+<p>Not to mention these 4 are not the most cutting-edge stuff on the table, like, WebPack, Gulp, and you know…</p>
+
+<p>Alright, even they aren’t the latest, but I like Kraken. I tried <a href="http://sailsjs.com/">Sails.js</a> before. It’s great, but its Waterline (I always recall it as Waterpipe) is like:</p>
+
+<p><img src="http://www.relatably.com/m/img/sassy-black-woman-memes/51202167.jpg" alt="oh-no-hell-no" /></p>
+
+<p>And I found Kraken, with introduction like:</p>
+
+<blockquote>
+  <p>It’s an <a href="">Express</a> middleware!</p>
+</blockquote>
+
+<p>Oh man, that’s exact what I want. Since it’s a middleware, I can plug in/off any middleware I think it’s suitable. Kraken comes with other 4 companies:</p>
+
+<ul>
+  <li>Lusca (Application Security)</li>
+  <li>Kappa (NPM Proxy)</li>
+  <li>Makara (Dust i18N)</li>
+  <li>Adaro (Dust Templating)</li>
+</ul>
+
+<p>I am gonna use React as my template engine, so I just pass Adaro and Makara.</p>
+
+<p><strong>Enough of the trash talk!</strong></p>
+
+<p>After installing the node modules, run:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>yo kraken
+</code></pre>
+</div>
+
+<p>You shall SEE:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>     ,'""`.
+hh  / _  _ \
+    |(@)(@)|   Release the Kraken!
+    )  __  (
+   /,'))((`.\
+  (( ((  )) ))
+   `\ `)(' /'
+
+Tell me a bit about your application:
+</code></pre>
+</div>
+<p>Then you have to answer the questions of Norns! Nothing special really, just being cautious when it comes to:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>? Template library? (Use arrow keys)
+  Dust (via Makara 2)
+  Dust
+❯ None
+</code></pre>
+</div>
+<p>Choose <code class="highlighter-rouge">None</code> here, since I am determined to use React. And:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>? Include i18n support? (Use arrow keys)
+  Yes
+❯ No
+</code></pre>
+</div>
+<p>Hell no, I am gonna use <a href="https://github.com/yahoo/react-intl">react-intl</a> (or not~).</p>
+
+<p>For the following questions:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">Bower</code> for Fron end package manage</li>
+  <li><code class="highlighter-rouge">None</code> for CSS preprocessor library</li>
+  <li><code class="highlighter-rouge">None</code> for JavaScript library</li>
+</ul>
+
+<p>After answering these questions. Kraken has to fight with Norns, it might take few minutes, it’s a good time to take a leak. Run the server with:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ I-AM-CONSOLE &gt; nodemon server
+</code></pre>
+</div>
+
+<p>Thou shall see:
+<code class="highlighter-rouge"><span class="w">
+</span><span class="p">{</span><span class="w"> </span><span class="err">name:</span><span class="w"> </span><span class="err">'index'</span><span class="w"> </span><span class="p">}</span><span class="err">;</span><span class="w"> </span><span class="err">//it's</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="err">plain</span><span class="w"> </span><span class="err">JSON</span><span class="w"> </span><span class="err">object,</span><span class="w"> </span><span class="err">since</span><span class="w"> </span><span class="err">there</span><span class="w"> </span><span class="err">is</span><span class="w"> </span><span class="err">no</span><span class="w"> </span><span class="err">rendering</span><span class="w"> </span><span class="err">engine</span><span class="w"> </span><span class="err">setup</span><span class="w"> </span><span class="err">yet</span><span class="w">
+</span></code></p>
+
+<p>Play with the model class in <code class="highlighter-rouge">models/index.js</code> to see the different output. That’s it.</p>
+
+<p>Let’s keep the rendering part to the next post.</p>
+
+  </div>
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Kranken and I</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Kranken and I
+            
+            </li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/aitch0083"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">aitch0083</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>A small project to keep me occupied</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
