@@ -12,7 +12,7 @@ First, I need to install the kraken.js in the working enviroment. The process is
 ```
 npm install -g yo generator-kraken bower grunt-cli
 ```
-This line install 4 things yo, kraken, bower and grunt-cli. Holy shi*t, why is so complicated to install a runnable template? I just want to have that `Hello world` impact when I first learned **Turbo C**. So it means I have to have the basic knowledge of these 4 things:
+This line installs 4 things: yo, kraken, bower and grunt-cli. Holy shi*t, why is so complicated to install a runnable template? I just want to have that `Hello world` impact when I first learned **Turbo C**. So it means I have to have the basic knowledge of these 4 things:
 
 1. [Yo](https://www.npmjs.com/package/yo#whats-yeoman)
 2. [Kraken](http://krakenjs.com/#templates)
@@ -37,7 +37,7 @@ Oh man, that's exact what I want. Since it's a middleware, I can plug in/off any
 + Makara (Dust i18N)
 + Adaro (Dust Templating)
 
-I am gonna use React as my template engine, so I just pass Adaro and Makara. 
+I am gonna use React as my view engine, so I just pass Adaro and Makara. 
 
 **Enough of the trash talk!**
 
@@ -91,7 +91,7 @@ $ I-AM-CONSOLE > nodemon server
 
 Thou shall see:
 ``` 
-{ name: 'index' }; //it's a plain JSON object, since there is no rendering engine setup yet
+{ name: 'index' }; //it's a plain JSON object, since there is no view engine setup yet
 ```
 
 Play with the model class in `models/index.js` to see the different output. That's it. 
