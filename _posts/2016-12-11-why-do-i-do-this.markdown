@@ -11,7 +11,7 @@ categories: Forward
 > From the very deep of the sea.
 > Its name is Kraken, help me with defeating the monster in me.
 
-Okay, it's just a small project for me to keep me busy and from thinking too much. The goal is very simple, everyday I create a post to show the process of solving the problem in building the CMS with [kraken.js](http://krakenjs.com/). I am not trying to show people how cool or awesome I am in this field. I am not, in the matter of fact, I am pretty lame in this field. Yes, it's a therapy for me.
+Okay, it's just a small project for me to keep me busy and from thinking too much. The goal is very simple, I create posts to show the process of solving the problems in building the CMS with [kraken.js](http://krakenjs.com/). I am not trying to show people how cool or awesome I am in this field. I am not, in the matter of fact, I am pretty lame in this field. Yes, it's a therapy for me.
 
 I hope this processing of writing down what's in my mind can put the depression and anxiety in peace. As my wife told me: one step a time. So here is how I am gonna archive the goal:
 
